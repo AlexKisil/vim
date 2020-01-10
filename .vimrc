@@ -78,6 +78,10 @@ Bundle 'groenewege/vim-less'
 " Coffee-script syntax.
 Bundle 'kchmck/vim-coffee-script'
 
+" Verilog syntax.
+Bundle 'vhda/verilog_systemverilog.vim'
+
+call vundle#end()
 
 " We have to turn this stuff back on if we want all of our features.
 filetype plugin indent on " Filetype auto-detection
@@ -91,7 +95,7 @@ set expandtab " use spaces instead of tabs.
 set smarttab " let's tab key insert 'tab stops', and bksp deletes tabs.
 set shiftround " tab / shifting moves to closest tabstop.
 set autoindent " Match indents on new lines.
-set smartindent " Intellegently dedent / indent new lines based on rules.
+" set smartindent " Intellegently dedent / indent new lines based on rules.
 
 " We have VCS -- we don't need this stuff.
 set nobackup " We have vcs, we don't need backups.
